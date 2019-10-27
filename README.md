@@ -1,4 +1,4 @@
-# LtHash
+# LtHash [![Go Report Card](https://goreportcard.com/badge/github.com/fyrchik/lthash)](https://goreportcard.com/report/github.com/fyrchik/lthash)
 
 LtHash is a family of functions defined by Bellare and Micciancio in
 [[1](https://cseweb.ucsd.edu/~daniele/papers/IncHash.pdf)] and implemented by engineers from Facebook in
