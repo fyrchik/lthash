@@ -66,7 +66,10 @@ func init() {
 	hasAVX2 = isSet(ebx7, bitAVX2) && osSupportsAVX
 }
 
-func HasAVX() bool  { return hasAVX }
+// HasAVX returns true iff CPU supports AVX instruction set.
+func HasAVX() bool { return hasAVX }
+
+// HasAVX2 returns true iff CPU supports AVX2 instruction set.
 func HasAVX2() bool { return hasAVX2 }
 
 func isSet(hwc uint32, value uint32) bool {
